@@ -1,0 +1,40 @@
+# Python
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.vite/
+.pnpm-store/
+npm-debug.log*
+pnpm-debug.log*
+
+# Local configuration and private data
+.env
+.env.*
+!.env.example
+data/
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+backend/uploads/
+
+# Editors and OS
+.DS_Store
+.AppleDouble
+.LSOverride
+.idea/
+.vscode/
+.agents/skills/developing-with-streamlit
+.claude/skills/developing-with-streamlit
